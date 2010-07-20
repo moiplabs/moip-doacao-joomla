@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module">
+
+	<name>Módulo de Doação MoIP</name>
+	<author>Felipe Figueiredo</author>
+	<license>GNU/GPL</license>
+	<creationDate>25/01/08</creationDate>
+	<authorEmail>warriorssj@hotmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	
+	<description><![CDATA[ 
+				 <p>Obrigado por instalar o módulo de doação MoIP para o Joomla!</p>
+				 <p>Para aceitar doações em seu site é preciso estar cadastrado no MoIP.
+				 <br>
+				 Você precisa criar uma carteira de negócios ir a aba Ferramentas e cadastrar o serviço Integração HTML.
+				 <br>
+				 Após o doador realizar o pagamento da doação o dinheiro é depositado em sua carteira MoIP.
+				 </p>
+				 
+				 <A href="http://www.moip.com.br">Clique aqui para realizar seu cadastro!<br> 
+				 <IMG  SRC=http://www.moip.com.br/imgs/logo_moip.gif border=0></A>
+				 
+				 <p>Os seguintes modos de pagamento são aceitos:<br>
+				 <img src=http://www.moip.com.br/imgs/flags.JPG border=0>
+				 </p>
+	 
+				 <p>É possível definir um logo ou texto a ser visualizado pelos visitantes.
+				 <br>
+				 No campo "Logo URL ou Texto" define-se a URL do logo ou o texto a ser exibido. O texto pode conter formatação HTML.
+				 <br>
+				 O campo "Identificação no MoIP" define sua identificação no MoIP: pode ser seu e-mail principal, celular verificado ou login.</p>
+				 
+				 <p> Dúvidas, reclamações ou sugestões entre em contato através da Central de Atendimento MoIP através do link seguinte:<A href="http://www.moip.com.br/MainMenu.do?method=talktous">Central de Atendimento MoIP<br></A>
+				 ]]>
+	</description>
+	
+	<files>
+    <filename module="mod_moip_1.0">mod_moip_1.0.php</filename>
+	</files>
+	
+	<params>
+	
+	<param name="logo_on" type="radio" default="0" label="Logo ou Texto?" 
+		   description="Visitantes visualizam um logo ou um texto.">
+			<option value="0">Logo</option>
+			<option value="1">Texto</option>
+			<option value="2">Nenhum</option>
+	</param>
+	
+	<param name="logo" type="text" default="http://www.moip.com.br/imgs/logo_moip.gif" size="40" 
+		   label="Logo URL ou Texto" description="URL do logo a ser visualizado ou o Texto." />
+		   
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" 
+		   description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		   
+	<param name="id_carteira" type="text" default="" label="Identificação no MoIP" 
+		   description="Sua identificação no MoIP." />
+		   
+
+	</params>
+	
+</mosinstall>
