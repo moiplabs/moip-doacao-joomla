@@ -9,8 +9,8 @@ Basta instalar e começar a receber suas doações direto na sua carteira de neg
 Instalação
 ==========
 
-- Compacte a pasta mod_moip_1.0 no formato ZIP 
-- Vá na área administrativa > *Extensions* > *Install/ Uninstall*
-- Na seção *Upload Package File*, clique em *Browse* e informe o ZIP que você criou no passo 1
-- Clique em *Upload FIle & Install*
+1. Compacte a pasta mod_moip_1.0 no formato ZIP 
+2. Vá na área administrativa > **Extensions** > **Install/ Uninstall**
+3. Na seção **Upload Package File**, clique em **Browse** e informe o ZIP que você criou no passo 1
+4. Clique em **Upload File & Install**
 
