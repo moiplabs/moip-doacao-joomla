@@ -13,6 +13,7 @@ Você pode fazer o download deste repositório utilizando o link "Download Sourc
 
 > $ git clone git://github.com/moiplabs/moip-doacao-joomla.git
 
+Após baixar o código, instale o módulo seguindo as instruções abaixo:
 
 1. Compacte a pasta mod_moip_1.0 no formato ZIP 
 2. Vá na área administrativa > **Extensions** > **Install/ Uninstall**
