@@ -15,10 +15,9 @@ Você pode fazer o download deste repositório utilizando o link "Download Sourc
 
 Após baixar o código, instale o módulo seguindo as instruções abaixo:
 
-1. Compacte a pasta mod_moip_1.0 no formato ZIP 
+1. Compacte a pasta mod_moip_1.5 no formato ZIP 
 2. Vá na área administrativa > **Extensions** > **Install/ Uninstall**
 3. Na seção **Upload Package File**, clique em **Browse** e informe o ZIP que você criou no passo 1
 4. Clique em **Upload File & Install**
 
-
-
+Você também pode baixar o zip pronto através [desta URL](https://github.com/moiplabs/moip-doacao-joomla/zipball/master)
