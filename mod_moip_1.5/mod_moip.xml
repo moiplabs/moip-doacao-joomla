@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<mosinstall type="module">
+<install type="module" version="1.5.21">
 
 	<name>Módulo de Doação MoIP</name>
-	<author>Felipe Figueiredo</author>
+	<author>Felipe Figueiredo &amp; Herberth Amaral</author>
 	<license>GNU/GPL</license>
-	<creationDate>25/01/08</creationDate>
-	<authorEmail>warriorssj@hotmail.com</authorEmail>
-	<authorUrl></authorUrl>
-	<version>1.0</version>
+	<creationDate>03/11/10</creationDate>
+	<authorEmail>herberthamaral@gmail.com</authorEmail>
+    <authorUrl>http://labs.moip.com.br/</authorUrl>
+	<version>1.5</version>
 	
 	<description><![CDATA[ 
 				 <p>Obrigado por instalar o módulo de doação MoIP para o Joomla!</p>
@@ -36,7 +36,10 @@
 	</description>
 	
 	<files>
-    <filename module="mod_moip_1.0">mod_moip_1.0.php</filename>
+        <filename module="mod_moip">mod_moip.php</filename>
+        <filename>mod_moip.xml</filename>
+        <filename>tmpl/mod_moip.php</filename>
+        <filename>helper.php</filename>
 	</files>
 	
 	<params>
@@ -60,4 +63,4 @@
 
 	</params>
 	
-</mosinstall>
+</install>

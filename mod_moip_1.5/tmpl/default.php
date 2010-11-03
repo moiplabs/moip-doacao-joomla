@@ -1,12 +1,7 @@
-<?php
+<?php 
 
-// Don't allow direct access to the module.
-defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
-
-$id_carteira      = $params->get('id_carteira');
-$page_url         = $params->get('page_url');
-$logo             = $params->get('logo');
-$logo_on          = $params->get('logo_on');
+// no direct access
+defined( '_JEXEC' ) or die( 'Restricted access' ); 
 
 echo "<div id=\"moip_logo\">";
 if ($logo_on == 0) {
@@ -27,17 +22,19 @@ echo "
 <center>
 <input type=\"hidden\" value=\"".$id_carteira."\" name=\"id_carteira\" />
 <input type=\"hidden\" value=\"Doação\" name=\"nome\" />
-<input type=\"image\"  name=\"moipsubmit\" src=\"https://www.moip.com.br/imgs/buttons/bt_doar_joomla_mod.png\" />
+<input type=\"image\"  name=\"moipsubmit\" src=\"https://www.moip.com.br/imgs/buttons/bt_doar_c03_e04.png\" />
 </center>";
 
 echo "</form>";
+
 ?>
 
 <script>
 function converte()
 {
 	var m_valor = document.f1.valor.value;
-	var ivirgula = m_valor.indexOf(",");
+    var ivirgula = m_valor.indexOf(",");
+    var iponto = m_valor.indexOf(".");
 	if ( (ivirgula == -1) && (iponto == -1) ) 
 	{
 		m_valor = m_valor + "00"; //concatena dois zeros
